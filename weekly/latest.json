@@ -27,9 +27,9 @@
     "cpu_performance_core_count": 3,
     "cpu_physical_count": 3,
     "os": "macOS",
-    "runner": "GitHub Actions 1000000531",
+    "runner": "GitHub Actions 1000000588",
     "schema_version": "1.0.0",
-    "timestamp": "2026-07-05T05:56:34Z",
+    "timestamp": "2026-07-12T05:17:58Z",
     "workflow": "Weekly Benchmarks"
   },
   "storage": {
@@ -37,14 +37,14 @@
     "compiler": "AppleClang 17.0.0.17000013",
     "cpu_count": 3,
     "cpu_model": "Apple M1 (Virtual)",
-    "date": "2026-07-05",
-    "github_run_url": "https://github.com/AnshulPatil2005/manifold/actions/runs/28731213754",
+    "date": "2026-07-12",
+    "github_run_url": "https://github.com/AnshulPatil2005/manifold/actions/runs/29180859240",
     "os": "macOS",
-    "result_path": "weekly/2026/07/05/28731213754/result.json",
-    "run_id": "28731213754",
-    "runner": "GitHub Actions 1000000531",
-    "summary_path": "weekly/2026/07/05/28731213754/summary.md",
-    "timestamp": "2026-07-05T05:56:34Z",
+    "result_path": "weekly/2026/07/12/29180859240/result.json",
+    "run_id": "29180859240",
+    "runner": "GitHub Actions 1000000588",
+    "summary_path": "weekly/2026/07/12/29180859240/summary.md",
+    "timestamp": "2026-07-12T05:17:58Z",
     "workflow": "Weekly Benchmarks"
   },
   "suites": {
@@ -57,7 +57,7 @@
           "tests": [
             {
               "name": "Boolean.BatchBoolean",
-              "time_ms": 9.0
+              "time_ms": 4.0
             },
             {
               "name": "CrossSection.BatchBoolean",
@@ -69,11 +69,11 @@
             },
             {
               "name": "Polygon.Zebra1",
-              "time_ms": 2.0
+              "time_ms": 1.0
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1185.0
+              "time_ms": 740.0
             }
           ]
         },
@@ -83,7 +83,7 @@
           "tests": [
             {
               "name": "Boolean.BatchBoolean",
-              "time_ms": 2.0
+              "time_ms": 7.0
             },
             {
               "name": "CrossSection.BatchBoolean",
@@ -99,7 +99,7 @@
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1240.0
+              "time_ms": 702.0
             }
           ]
         },
@@ -121,11 +121,11 @@
             },
             {
               "name": "Polygon.Zebra1",
-              "time_ms": 2.0
+              "time_ms": 1.0
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1317.0
+              "time_ms": 700.0
             }
           ]
         },
@@ -135,7 +135,7 @@
           "tests": [
             {
               "name": "Boolean.BatchBoolean",
-              "time_ms": 4.0
+              "time_ms": 2.0
             },
             {
               "name": "CrossSection.BatchBoolean",
@@ -143,15 +143,15 @@
             },
             {
               "name": "Polygon.Sponge4",
-              "time_ms": 1.0
+              "time_ms": 0.0
             },
             {
               "name": "Polygon.Zebra1",
-              "time_ms": 2.0
+              "time_ms": 1.0
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1625.0
+              "time_ms": 736.0
             }
           ]
         },
@@ -173,11 +173,11 @@
             },
             {
               "name": "Polygon.Zebra1",
-              "time_ms": 2.0
+              "time_ms": 1.0
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1515.0
+              "time_ms": 853.0
             }
           ]
         }
@@ -193,19 +193,19 @@
         {
           "name": "Boolean.BatchBoolean",
           "time_ms": {
-            "max_ms": 9.0,
-            "mean_ms": 3.8,
+            "max_ms": 7.0,
+            "mean_ms": 3.4,
             "median_ms": 2.0,
             "min_ms": 2.0,
             "n_runs": 5,
             "samples_ms": [
-              9.0,
-              2.0,
-              2.0,
               4.0,
+              7.0,
+              2.0,
+              2.0,
               2.0
             ],
-            "stdev_ms": 3.03315017762062
+            "stdev_ms": 2.1908902300206643
           }
         },
         {
@@ -229,8 +229,8 @@
         {
           "name": "Polygon.Sponge4",
           "time_ms": {
-            "max_ms": 1.0,
-            "mean_ms": 0.2,
+            "max_ms": 0.0,
+            "mean_ms": 0.0,
             "median_ms": 0.0,
             "min_ms": 0.0,
             "n_runs": 5,
@@ -238,46 +238,46 @@
               0.0,
               0.0,
               0.0,
-              1.0,
+              0.0,
               0.0
             ],
-            "stdev_ms": 0.4472135954999579
+            "stdev_ms": 0.0
           }
         },
         {
           "name": "Polygon.Zebra1",
           "time_ms": {
             "max_ms": 2.0,
-            "mean_ms": 2.0,
-            "median_ms": 2.0,
-            "min_ms": 2.0,
+            "mean_ms": 1.2,
+            "median_ms": 1.0,
+            "min_ms": 1.0,
             "n_runs": 5,
             "samples_ms": [
+              1.0,
               2.0,
-              2.0,
-              2.0,
-              2.0,
-              2.0
+              1.0,
+              1.0,
+              1.0
             ],
-            "stdev_ms": 0.0
+            "stdev_ms": 0.4472135954999579
           }
         },
         {
           "name": "Polygon.Zebra3",
           "time_ms": {
-            "max_ms": 1625.0,
-            "mean_ms": 1376.4,
-            "median_ms": 1317.0,
-            "min_ms": 1185.0,
+            "max_ms": 853.0,
+            "mean_ms": 746.2,
+            "median_ms": 736.0,
+            "min_ms": 700.0,
             "n_runs": 5,
             "samples_ms": [
-              1185.0,
-              1240.0,
-              1317.0,
-              1625.0,
-              1515.0
+              740.0,
+              702.0,
+              700.0,
+              736.0,
+              853.0
             ],
-            "stdev_ms": 186.9352829189824
+            "stdev_ms": 62.52359554600167
           }
         }
       ],
@@ -292,35 +292,35 @@
           "workloads": [
             {
               "n_tri": 512,
-              "time_ms": 0.919792
+              "time_ms": 0.7809159999999999
             },
             {
               "n_tri": 2048,
-              "time_ms": 2.052
+              "time_ms": 1.9945800000000002
             },
             {
               "n_tri": 8192,
-              "time_ms": 5.50183
+              "time_ms": 5.19625
             },
             {
               "n_tri": 32768,
-              "time_ms": 14.8152
+              "time_ms": 14.0196
             },
             {
               "n_tri": 131072,
-              "time_ms": 54.949999999999996
+              "time_ms": 48.9037
             },
             {
               "n_tri": 524288,
-              "time_ms": 421.706
+              "time_ms": 333.36199999999997
             },
             {
               "n_tri": 2097152,
-              "time_ms": 1267.31
+              "time_ms": 2254.42
             },
             {
               "n_tri": 8388608,
-              "time_ms": 14483.3
+              "time_ms": 12773.9
             }
           ]
         },
@@ -330,35 +330,35 @@
           "workloads": [
             {
               "n_tri": 512,
-              "time_ms": 0.99
+              "time_ms": 1.8878300000000001
             },
             {
               "n_tri": 2048,
-              "time_ms": 2.52992
+              "time_ms": 3.41238
             },
             {
               "n_tri": 8192,
-              "time_ms": 6.475
+              "time_ms": 11.1653
             },
             {
               "n_tri": 32768,
-              "time_ms": 22.761799999999997
+              "time_ms": 49.7088
             },
             {
               "n_tri": 131072,
-              "time_ms": 75.87230000000001
+              "time_ms": 264.122
             },
             {
               "n_tri": 524288,
-              "time_ms": 271.02
+              "time_ms": 433.696
             },
             {
               "n_tri": 2097152,
-              "time_ms": 926.377
+              "time_ms": 1671.59
             },
             {
               "n_tri": 8388608,
-              "time_ms": 9924.32
+              "time_ms": 12469.699999999999
             }
           ]
         },
@@ -368,35 +368,35 @@
           "workloads": [
             {
               "n_tri": 512,
-              "time_ms": 0.97875
+              "time_ms": 0.934375
             },
             {
               "n_tri": 2048,
-              "time_ms": 2.21542
+              "time_ms": 2.19712
             },
             {
               "n_tri": 8192,
-              "time_ms": 5.78583
+              "time_ms": 6.7376700000000005
             },
             {
               "n_tri": 32768,
-              "time_ms": 16.360500000000002
+              "time_ms": 40.4738
             },
             {
               "n_tri": 131072,
-              "time_ms": 64.57069999999999
+              "time_ms": 111.249
             },
             {
               "n_tri": 524288,
-              "time_ms": 277.48699999999997
+              "time_ms": 430.03400000000005
             },
             {
               "n_tri": 2097152,
-              "time_ms": 1087.2900000000002
+              "time_ms": 1741.3000000000002
             },
             {
               "n_tri": 8388608,
-              "time_ms": 10559.699999999999
+              "time_ms": 12255.9
             }
           ]
         },
@@ -406,35 +406,35 @@
           "workloads": [
             {
               "n_tri": 512,
-              "time_ms": 1.1329999999999998
+              "time_ms": 2.72171
             },
             {
               "n_tri": 2048,
-              "time_ms": 5.21396
+              "time_ms": 2.64396
             },
             {
               "n_tri": 8192,
-              "time_ms": 5.8888300000000005
+              "time_ms": 9.93971
             },
             {
               "n_tri": 32768,
-              "time_ms": 16.552
+              "time_ms": 25.386
             },
             {
               "n_tri": 131072,
-              "time_ms": 74.0098
+              "time_ms": 98.6515
             },
             {
               "n_tri": 524288,
-              "time_ms": 233.296
+              "time_ms": 418.208
             },
             {
               "n_tri": 2097152,
-              "time_ms": 941.102
+              "time_ms": 1207.94
             },
             {
               "n_tri": 8388608,
-              "time_ms": 12634.1
+              "time_ms": 9237.43
             }
           ]
         },
@@ -444,35 +444,35 @@
           "workloads": [
             {
               "n_tri": 512,
-              "time_ms": 0.93875
+              "time_ms": 1.0571199999999998
             },
             {
               "n_tri": 2048,
-              "time_ms": 2.41046
+              "time_ms": 2.19042
             },
             {
               "n_tri": 8192,
-              "time_ms": 6.59733
+              "time_ms": 5.91804
             },
             {
               "n_tri": 32768,
-              "time_ms": 15.2488
+              "time_ms": 20.5667
             },
             {
               "n_tri": 131072,
-              "time_ms": 66.7715
+              "time_ms": 70.8859
             },
             {
               "n_tri": 524288,
-              "time_ms": 282.218
+              "time_ms": 314.564
             },
             {
               "n_tri": 2097152,
-              "time_ms": 1395.02
+              "time_ms": 1129.6399999999999
             },
             {
               "n_tri": 8388608,
-              "time_ms": 12090.6
+              "time_ms": 15167.1
             }
           ]
         }
@@ -492,145 +492,145 @@
         {
           "n_tri": 512,
           "time_ms": {
-            "max_ms": 1.1329999999999998,
-            "mean_ms": 0.9920584,
-            "median_ms": 0.97875,
-            "min_ms": 0.919792,
+            "max_ms": 2.72171,
+            "mean_ms": 1.4763902,
+            "median_ms": 1.0571199999999998,
+            "min_ms": 0.7809159999999999,
             "n_runs": 5,
             "samples_ms": [
-              0.919792,
-              0.99,
-              0.97875,
-              1.1329999999999998,
-              0.93875
+              0.7809159999999999,
+              1.8878300000000001,
+              0.934375,
+              2.72171,
+              1.0571199999999998
             ],
-            "stdev_ms": 0.08383033939332456
+            "stdev_ms": 0.8175200997224472
           }
         },
         {
           "n_tri": 2048,
           "time_ms": {
-            "max_ms": 5.21396,
-            "mean_ms": 2.8843520000000002,
-            "median_ms": 2.41046,
-            "min_ms": 2.052,
+            "max_ms": 3.41238,
+            "mean_ms": 2.487692,
+            "median_ms": 2.19712,
+            "min_ms": 1.9945800000000002,
             "n_runs": 5,
             "samples_ms": [
-              2.052,
-              2.52992,
-              2.21542,
-              5.21396,
-              2.41046
+              1.9945800000000002,
+              3.41238,
+              2.19712,
+              2.64396,
+              2.19042
             ],
-            "stdev_ms": 1.3150616883325283
+            "stdev_ms": 0.5690847386110438
           }
         },
         {
           "n_tri": 8192,
           "time_ms": {
-            "max_ms": 6.59733,
-            "mean_ms": 6.049764000000001,
-            "median_ms": 5.8888300000000005,
-            "min_ms": 5.50183,
+            "max_ms": 11.1653,
+            "mean_ms": 7.7913939999999995,
+            "median_ms": 6.7376700000000005,
+            "min_ms": 5.19625,
             "n_runs": 5,
             "samples_ms": [
-              5.50183,
-              6.475,
-              5.78583,
-              5.8888300000000005,
-              6.59733
+              5.19625,
+              11.1653,
+              6.7376700000000005,
+              9.93971,
+              5.91804
             ],
-            "stdev_ms": 0.4680936757530484
+            "stdev_ms": 2.6150078963035654
           }
         },
         {
           "n_tri": 32768,
           "time_ms": {
-            "max_ms": 22.761799999999997,
-            "mean_ms": 17.14766,
-            "median_ms": 16.360500000000002,
-            "min_ms": 14.8152,
+            "max_ms": 49.7088,
+            "mean_ms": 30.03098,
+            "median_ms": 25.386,
+            "min_ms": 14.0196,
             "n_runs": 5,
             "samples_ms": [
-              14.8152,
-              22.761799999999997,
-              16.360500000000002,
-              16.552,
-              15.2488
+              14.0196,
+              49.7088,
+              40.4738,
+              25.386,
+              20.5667
             ],
-            "stdev_ms": 3.2225393167500673
+            "stdev_ms": 14.695082631002792
           }
         },
         {
           "n_tri": 131072,
           "time_ms": {
-            "max_ms": 75.87230000000001,
-            "mean_ms": 67.23486,
-            "median_ms": 66.7715,
-            "min_ms": 54.949999999999996,
+            "max_ms": 264.122,
+            "mean_ms": 118.76241999999999,
+            "median_ms": 98.6515,
+            "min_ms": 48.9037,
             "n_runs": 5,
             "samples_ms": [
-              54.949999999999996,
-              75.87230000000001,
-              64.57069999999999,
-              74.0098,
-              66.7715
+              48.9037,
+              264.122,
+              111.249,
+              98.6515,
+              70.8859
             ],
-            "stdev_ms": 8.347685577032719
+            "stdev_ms": 84.79786260347015
           }
         },
         {
           "n_tri": 524288,
           "time_ms": {
-            "max_ms": 421.706,
-            "mean_ms": 297.1454,
-            "median_ms": 277.48699999999997,
-            "min_ms": 233.296,
+            "max_ms": 433.696,
+            "mean_ms": 385.9728,
+            "median_ms": 418.208,
+            "min_ms": 314.564,
             "n_runs": 5,
             "samples_ms": [
-              421.706,
-              271.02,
-              277.48699999999997,
-              233.296,
-              282.218
+              333.36199999999997,
+              433.696,
+              430.03400000000005,
+              418.208,
+              314.564
             ],
-            "stdev_ms": 72.25632401250428
+            "stdev_ms": 57.2824455588272
           }
         },
         {
           "n_tri": 2097152,
           "time_ms": {
-            "max_ms": 1395.02,
-            "mean_ms": 1123.4198000000001,
-            "median_ms": 1087.2900000000002,
-            "min_ms": 926.377,
+            "max_ms": 2254.42,
+            "mean_ms": 1600.978,
+            "median_ms": 1671.59,
+            "min_ms": 1129.6399999999999,
             "n_runs": 5,
             "samples_ms": [
-              1267.31,
-              926.377,
-              1087.2900000000002,
-              941.102,
-              1395.02
+              2254.42,
+              1671.59,
+              1741.3000000000002,
+              1207.94,
+              1129.6399999999999
             ],
-            "stdev_ms": 204.84266277609262
+            "stdev_ms": 455.0552563370739
           }
         },
         {
           "n_tri": 8388608,
           "time_ms": {
-            "max_ms": 14483.3,
-            "mean_ms": 11938.403999999999,
-            "median_ms": 12090.6,
-            "min_ms": 9924.32,
+            "max_ms": 15167.1,
+            "mean_ms": 12380.806,
+            "median_ms": 12469.699999999999,
+            "min_ms": 9237.43,
             "n_runs": 5,
             "samples_ms": [
-              14483.3,
-              9924.32,
-              10559.699999999999,
-              12634.1,
-              12090.6
+              12773.9,
+              12469.699999999999,
+              12255.9,
+              9237.43,
+              15167.1
             ],
-            "stdev_ms": 1798.680855260321
+            "stdev_ms": 2110.8217284223697
           }
         }
       ]
