@@ -27,9 +27,9 @@
     "cpu_performance_core_count": 3,
     "cpu_physical_count": 3,
     "os": "macOS",
-    "runner": "GitHub Actions 1000000928",
+    "runner": "GitHub Actions 1000000935",
     "schema_version": "1.0.0",
-    "timestamp": "2026-07-21T01:57:32Z",
+    "timestamp": "2026-07-21T13:25:38Z",
     "workflow": "Weekly Benchmarks"
   },
   "storage": {
@@ -38,13 +38,13 @@
     "cpu_count": 3,
     "cpu_model": "Apple M1 (Virtual)",
     "date": "2026-07-21",
-    "github_run_url": "https://github.com/AnshulPatil2005/manifold/actions/runs/29794289897",
+    "github_run_url": "https://github.com/AnshulPatil2005/manifold/actions/runs/29833930308",
     "os": "macOS",
-    "result_path": "weekly/2026/07/21/29794289897/result.json",
-    "run_id": "29794289897",
-    "runner": "GitHub Actions 1000000928",
-    "summary_path": "weekly/2026/07/21/29794289897/summary.md",
-    "timestamp": "2026-07-21T01:57:32Z",
+    "result_path": "weekly/2026/07/21/29833930308/result.json",
+    "run_id": "29833930308",
+    "runner": "GitHub Actions 1000000935",
+    "summary_path": "weekly/2026/07/21/29833930308/summary.md",
+    "timestamp": "2026-07-21T13:25:38Z",
     "workflow": "Weekly Benchmarks"
   },
   "suites": {
@@ -57,15 +57,15 @@
           "tests": [
             {
               "name": "Manifold.DeepChainDoesNotOverflowNumLeaves",
-              "time_ms": 2167.0
+              "time_ms": 3743.0
             },
             {
               "name": "ExecutionContextFromMeshGL.CancelConcurrent",
-              "time_ms": 69.0
+              "time_ms": 141.0
             },
             {
               "name": "Boolean.BatchBoolean",
-              "time_ms": 4.0
+              "time_ms": 9.0
             },
             {
               "name": "CrossSection.BatchBoolean",
@@ -81,7 +81,7 @@
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1062.0
+              "time_ms": 1224.0
             }
           ]
         },
@@ -91,11 +91,11 @@
           "tests": [
             {
               "name": "Manifold.DeepChainDoesNotOverflowNumLeaves",
-              "time_ms": 2631.0
+              "time_ms": 2719.0
             },
             {
               "name": "ExecutionContextFromMeshGL.CancelConcurrent",
-              "time_ms": 131.0
+              "time_ms": 122.0
             },
             {
               "name": "Boolean.BatchBoolean",
@@ -107,7 +107,7 @@
             },
             {
               "name": "Polygon.Sponge4",
-              "time_ms": 1.0
+              "time_ms": 0.0
             },
             {
               "name": "Polygon.Zebra1",
@@ -115,7 +115,7 @@
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1097.0
+              "time_ms": 1261.0
             }
           ]
         },
@@ -125,15 +125,15 @@
           "tests": [
             {
               "name": "Manifold.DeepChainDoesNotOverflowNumLeaves",
-              "time_ms": 2148.0
+              "time_ms": 2827.0
             },
             {
               "name": "ExecutionContextFromMeshGL.CancelConcurrent",
-              "time_ms": 83.0
+              "time_ms": 129.0
             },
             {
               "name": "Boolean.BatchBoolean",
-              "time_ms": 2.0
+              "time_ms": 3.0
             },
             {
               "name": "CrossSection.BatchBoolean",
@@ -149,7 +149,7 @@
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1054.0
+              "time_ms": 1506.0
             }
           ]
         },
@@ -159,15 +159,15 @@
           "tests": [
             {
               "name": "Manifold.DeepChainDoesNotOverflowNumLeaves",
-              "time_ms": 2152.0
+              "time_ms": 2562.0
             },
             {
               "name": "ExecutionContextFromMeshGL.CancelConcurrent",
-              "time_ms": 82.0
+              "time_ms": 102.0
             },
             {
               "name": "Boolean.BatchBoolean",
-              "time_ms": 1.0
+              "time_ms": 2.0
             },
             {
               "name": "CrossSection.BatchBoolean",
@@ -183,7 +183,7 @@
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1052.0
+              "time_ms": 1116.0
             }
           ]
         },
@@ -193,15 +193,15 @@
           "tests": [
             {
               "name": "Manifold.DeepChainDoesNotOverflowNumLeaves",
-              "time_ms": 2193.0
+              "time_ms": 2281.0
             },
             {
               "name": "ExecutionContextFromMeshGL.CancelConcurrent",
-              "time_ms": 108.0
+              "time_ms": 90.0
             },
             {
               "name": "Boolean.BatchBoolean",
-              "time_ms": 3.0
+              "time_ms": 2.0
             },
             {
               "name": "CrossSection.BatchBoolean",
@@ -213,11 +213,11 @@
             },
             {
               "name": "Polygon.Zebra1",
-              "time_ms": 3.0
+              "time_ms": 2.0
             },
             {
               "name": "Polygon.Zebra3",
-              "time_ms": 1237.0
+              "time_ms": 1081.0
             }
           ]
         }
@@ -235,55 +235,55 @@
         {
           "name": "Manifold.DeepChainDoesNotOverflowNumLeaves",
           "time_ms": {
-            "max_ms": 2631.0,
-            "mean_ms": 2258.2,
-            "median_ms": 2167.0,
-            "min_ms": 2148.0,
+            "max_ms": 3743.0,
+            "mean_ms": 2826.4,
+            "median_ms": 2719.0,
+            "min_ms": 2281.0,
             "n_runs": 5,
             "samples_ms": [
-              2167.0,
-              2631.0,
-              2148.0,
-              2152.0,
-              2193.0
+              3743.0,
+              2719.0,
+              2827.0,
+              2562.0,
+              2281.0
             ],
-            "sd_ms": 209.1475555678335
+            "sd_ms": 552.0550697167811
           }
         },
         {
           "name": "ExecutionContextFromMeshGL.CancelConcurrent",
           "time_ms": {
-            "max_ms": 131.0,
-            "mean_ms": 94.6,
-            "median_ms": 83.0,
-            "min_ms": 69.0,
+            "max_ms": 141.0,
+            "mean_ms": 116.8,
+            "median_ms": 122.0,
+            "min_ms": 90.0,
             "n_runs": 5,
             "samples_ms": [
-              69.0,
-              131.0,
-              83.0,
-              82.0,
-              108.0
+              141.0,
+              122.0,
+              129.0,
+              102.0,
+              90.0
             ],
-            "sd_ms": 24.76489450815408
+            "sd_ms": 20.6082507748717
           }
         },
         {
           "name": "Boolean.BatchBoolean",
           "time_ms": {
-            "max_ms": 4.0,
-            "mean_ms": 2.8,
+            "max_ms": 9.0,
+            "mean_ms": 4.0,
             "median_ms": 3.0,
-            "min_ms": 1.0,
+            "min_ms": 2.0,
             "n_runs": 5,
             "samples_ms": [
+              9.0,
               4.0,
-              4.0,
+              3.0,
               2.0,
-              1.0,
-              3.0
+              2.0
             ],
-            "sd_ms": 1.3038404810405297
+            "sd_ms": 2.9154759474226504
           }
         },
         {
@@ -308,25 +308,25 @@
           "name": "Polygon.Sponge4",
           "time_ms": {
             "max_ms": 1.0,
-            "mean_ms": 1.0,
+            "mean_ms": 0.8,
             "median_ms": 1.0,
-            "min_ms": 1.0,
+            "min_ms": 0.0,
             "n_runs": 5,
             "samples_ms": [
               1.0,
-              1.0,
+              0.0,
               1.0,
               1.0,
               1.0
             ],
-            "sd_ms": 0.0
+            "sd_ms": 0.4472135954999579
           }
         },
         {
           "name": "Polygon.Zebra1",
           "time_ms": {
             "max_ms": 3.0,
-            "mean_ms": 2.4,
+            "mean_ms": 2.2,
             "median_ms": 2.0,
             "min_ms": 2.0,
             "n_runs": 5,
@@ -335,27 +335,27 @@
               3.0,
               2.0,
               2.0,
-              3.0
+              2.0
             ],
-            "sd_ms": 0.5477225575051661
+            "sd_ms": 0.4472135954999579
           }
         },
         {
           "name": "Polygon.Zebra3",
           "time_ms": {
-            "max_ms": 1237.0,
-            "mean_ms": 1100.4,
-            "median_ms": 1062.0,
-            "min_ms": 1052.0,
+            "max_ms": 1506.0,
+            "mean_ms": 1237.6,
+            "median_ms": 1224.0,
+            "min_ms": 1081.0,
             "n_runs": 5,
             "samples_ms": [
-              1062.0,
-              1097.0,
-              1054.0,
-              1052.0,
-              1237.0
+              1224.0,
+              1261.0,
+              1506.0,
+              1116.0,
+              1081.0
             ],
-            "sd_ms": 78.4875786350936
+            "sd_ms": 167.39265216848676
           }
         }
       ],
@@ -368,43 +368,43 @@
           "benchmarks": [
             {
               "benchmark": "nTri=512",
-              "peak_rss_mb": 4.27,
-              "time_sec": 0.00161733
+              "peak_rss_mb": 4.83,
+              "time_sec": 0.000841291
             },
             {
               "benchmark": "nTri=2048",
-              "peak_rss_mb": 6.27,
-              "time_sec": 0.00236513
+              "peak_rss_mb": 6.23,
+              "time_sec": 0.00309554
             },
             {
               "benchmark": "nTri=8192",
-              "peak_rss_mb": 11.7,
-              "time_sec": 0.00815679
+              "peak_rss_mb": 11.73,
+              "time_sec": 0.0068505
             },
             {
               "benchmark": "nTri=32768",
-              "peak_rss_mb": 32.91,
-              "time_sec": 0.0194897
+              "peak_rss_mb": 37.67,
+              "time_sec": 0.0200644
             },
             {
               "benchmark": "nTri=131072",
-              "peak_rss_mb": 121.59,
-              "time_sec": 0.0677284
+              "peak_rss_mb": 132.75,
+              "time_sec": 0.0883847
             },
             {
               "benchmark": "nTri=524288",
-              "peak_rss_mb": 523.83,
-              "time_sec": 0.548057
+              "peak_rss_mb": 530.72,
+              "time_sec": 0.800183
             },
             {
               "benchmark": "nTri=2097152",
-              "peak_rss_mb": 1544.48,
-              "time_sec": 2.5307
+              "peak_rss_mb": 1466.8,
+              "time_sec": 1.76986
             },
             {
               "benchmark": "nTri=8388608",
-              "peak_rss_mb": 3297.69,
-              "time_sec": 21.7864
+              "peak_rss_mb": 3095.42,
+              "time_sec": 26.0312
             }
           ],
           "path": "bench/weekly/perf_size_sweep/run1.txt",
@@ -414,43 +414,43 @@
           "benchmarks": [
             {
               "benchmark": "nTri=512",
-              "peak_rss_mb": 4.56,
-              "time_sec": 0.00228525
+              "peak_rss_mb": 4.77,
+              "time_sec": 0.00238633
             },
             {
               "benchmark": "nTri=2048",
-              "peak_rss_mb": 6.27,
-              "time_sec": 0.00245996
+              "peak_rss_mb": 6.22,
+              "time_sec": 0.00266329
             },
             {
               "benchmark": "nTri=8192",
-              "peak_rss_mb": 12.86,
-              "time_sec": 0.0119895
+              "peak_rss_mb": 11.72,
+              "time_sec": 0.00950021
             },
             {
               "benchmark": "nTri=32768",
-              "peak_rss_mb": 34.17,
-              "time_sec": 0.0312923
+              "peak_rss_mb": 32.16,
+              "time_sec": 0.0229729
             },
             {
               "benchmark": "nTri=131072",
-              "peak_rss_mb": 124.59,
-              "time_sec": 0.115806
+              "peak_rss_mb": 127.28,
+              "time_sec": 0.107116
             },
             {
               "benchmark": "nTri=524288",
-              "peak_rss_mb": 520.81,
-              "time_sec": 0.377648
+              "peak_rss_mb": 532.59,
+              "time_sec": 0.473244
             },
             {
               "benchmark": "nTri=2097152",
-              "peak_rss_mb": 2083.19,
-              "time_sec": 1.80355
+              "peak_rss_mb": 2074.14,
+              "time_sec": 2.14742
             },
             {
               "benchmark": "nTri=8388608",
-              "peak_rss_mb": 4121.48,
-              "time_sec": 15.2954
+              "peak_rss_mb": 3879.89,
+              "time_sec": 17.242
             }
           ],
           "path": "bench/weekly/perf_size_sweep/run2.txt",
@@ -460,43 +460,43 @@
           "benchmarks": [
             {
               "benchmark": "nTri=512",
-              "peak_rss_mb": 4.81,
-              "time_sec": 0.00148571
+              "peak_rss_mb": 4.7,
+              "time_sec": 0.00833367
             },
             {
               "benchmark": "nTri=2048",
-              "peak_rss_mb": 6.28,
-              "time_sec": 0.00246862
+              "peak_rss_mb": 6.39,
+              "time_sec": 0.00345146
             },
             {
               "benchmark": "nTri=8192",
-              "peak_rss_mb": 12.95,
-              "time_sec": 0.00678004
+              "peak_rss_mb": 11.52,
+              "time_sec": 0.00966738
             },
             {
               "benchmark": "nTri=32768",
-              "peak_rss_mb": 35.22,
-              "time_sec": 0.021119
+              "peak_rss_mb": 32.05,
+              "time_sec": 0.0313614
             },
             {
               "benchmark": "nTri=131072",
-              "peak_rss_mb": 131.91,
-              "time_sec": 0.0686428
+              "peak_rss_mb": 123.58,
+              "time_sec": 0.114631
             },
             {
               "benchmark": "nTri=524288",
-              "peak_rss_mb": 536.97,
-              "time_sec": 0.478765
+              "peak_rss_mb": 521.11,
+              "time_sec": 0.378815
             },
             {
               "benchmark": "nTri=2097152",
-              "peak_rss_mb": 2088.08,
-              "time_sec": 1.51165
+              "peak_rss_mb": 2080.31,
+              "time_sec": 1.59535
             },
             {
               "benchmark": "nTri=8388608",
-              "peak_rss_mb": 4090.55,
-              "time_sec": 15.6436
+              "peak_rss_mb": 3904.55,
+              "time_sec": 17.3441
             }
           ],
           "path": "bench/weekly/perf_size_sweep/run3.txt",
@@ -506,43 +506,43 @@
           "benchmarks": [
             {
               "benchmark": "nTri=512",
-              "peak_rss_mb": 4.72,
-              "time_sec": 0.00160417
+              "peak_rss_mb": 4.53,
+              "time_sec": 0.00234396
             },
             {
               "benchmark": "nTri=2048",
-              "peak_rss_mb": 6.69,
-              "time_sec": 0.00404662
+              "peak_rss_mb": 6.25,
+              "time_sec": 0.00277904
             },
             {
               "benchmark": "nTri=8192",
-              "peak_rss_mb": 12.77,
-              "time_sec": 0.00967354
+              "peak_rss_mb": 11.28,
+              "time_sec": 0.00965908
             },
             {
               "benchmark": "nTri=32768",
-              "peak_rss_mb": 31.33,
-              "time_sec": 0.0246345
+              "peak_rss_mb": 36.11,
+              "time_sec": 0.0260052
             },
             {
               "benchmark": "nTri=131072",
-              "peak_rss_mb": 127.39,
-              "time_sec": 0.0802861
+              "peak_rss_mb": 127.77,
+              "time_sec": 0.0956135
             },
             {
               "benchmark": "nTri=524288",
-              "peak_rss_mb": 538.02,
-              "time_sec": 0.474701
+              "peak_rss_mb": 532.69,
+              "time_sec": 0.438261
             },
             {
               "benchmark": "nTri=2097152",
-              "peak_rss_mb": 2080.17,
-              "time_sec": 1.53776
+              "peak_rss_mb": 2072.44,
+              "time_sec": 1.84338
             },
             {
               "benchmark": "nTri=8388608",
-              "peak_rss_mb": 4086.11,
-              "time_sec": 18.2648
+              "peak_rss_mb": 3829.77,
+              "time_sec": 11.4506
             }
           ],
           "path": "bench/weekly/perf_size_sweep/run4.txt",
@@ -552,43 +552,43 @@
           "benchmarks": [
             {
               "benchmark": "nTri=512",
-              "peak_rss_mb": 4.92,
-              "time_sec": 0.00281004
+              "peak_rss_mb": 4.5,
+              "time_sec": 0.00125671
             },
             {
               "benchmark": "nTri=2048",
-              "peak_rss_mb": 6.3,
-              "time_sec": 0.00333029
+              "peak_rss_mb": 5.94,
+              "time_sec": 0.00444117
             },
             {
               "benchmark": "nTri=8192",
-              "peak_rss_mb": 13.47,
-              "time_sec": 0.020207
+              "peak_rss_mb": 12.27,
+              "time_sec": 0.0113864
             },
             {
               "benchmark": "nTri=32768",
-              "peak_rss_mb": 35.3,
-              "time_sec": 0.0340603
+              "peak_rss_mb": 33.55,
+              "time_sec": 0.0367131
             },
             {
               "benchmark": "nTri=131072",
-              "peak_rss_mb": 113.84,
-              "time_sec": 0.112856
+              "peak_rss_mb": 122.44,
+              "time_sec": 0.123396
             },
             {
               "benchmark": "nTri=524288",
-              "peak_rss_mb": 521.73,
-              "time_sec": 0.489611
+              "peak_rss_mb": 527.33,
+              "time_sec": 0.693624
             },
             {
               "benchmark": "nTri=2097152",
-              "peak_rss_mb": 2072.94,
-              "time_sec": 1.78696
+              "peak_rss_mb": 2067.08,
+              "time_sec": 1.34498
             },
             {
               "benchmark": "nTri=8388608",
-              "peak_rss_mb": 4149.33,
-              "time_sec": 15.7429
+              "peak_rss_mb": 4100.16,
+              "time_sec": 19.9596
             }
           ],
           "path": "bench/weekly/perf_size_sweep/run5.txt",
@@ -611,272 +611,272 @@
           "benchmark": "nTri=512",
           "n_tri": 512,
           "peak_rss_mb": {
-            "max": 4.92,
-            "mean": 4.656,
-            "median": 4.72,
-            "min": 4.27,
+            "max": 4.83,
+            "mean": 4.6659999999999995,
+            "median": 4.7,
+            "min": 4.5,
             "n_runs": 5,
             "samples": [
-              4.27,
-              4.56,
-              4.81,
-              4.72,
-              4.92
+              4.83,
+              4.77,
+              4.7,
+              4.53,
+              4.5
             ],
-            "sd": 0.25284382531515387
+            "sd": 0.14570518178843184
           },
           "time_ms": {
-            "max_ms": 2.8100400000000003,
-            "mean_ms": 1.9605000000000001,
-            "median_ms": 1.61733,
-            "min_ms": 1.4857099999999999,
+            "max_ms": 8.33367,
+            "mean_ms": 3.0323922,
+            "median_ms": 2.34396,
+            "min_ms": 0.841291,
             "n_runs": 5,
             "samples_ms": [
-              1.61733,
-              2.28525,
-              1.4857099999999999,
-              1.60417,
-              2.8100400000000003
+              0.841291,
+              2.38633,
+              8.33367,
+              2.34396,
+              1.25671
             ],
-            "sd_ms": 0.5695048366783202
+            "sd_ms": 3.039278422466293
           }
         },
         {
           "benchmark": "nTri=2048",
           "n_tri": 2048,
           "peak_rss_mb": {
-            "max": 6.69,
-            "mean": 6.362,
-            "median": 6.28,
-            "min": 6.27,
+            "max": 6.39,
+            "mean": 6.206,
+            "median": 6.23,
+            "min": 5.94,
             "n_runs": 5,
             "samples": [
-              6.27,
-              6.27,
-              6.28,
-              6.69,
-              6.3
+              6.23,
+              6.22,
+              6.39,
+              6.25,
+              5.94
             ],
-            "sd": 0.18376615575235855
+            "sd": 0.16379865689315015
           },
           "time_ms": {
-            "max_ms": 4.04662,
-            "mean_ms": 2.9341239999999997,
-            "median_ms": 2.46862,
-            "min_ms": 2.36513,
+            "max_ms": 4.4411700000000005,
+            "mean_ms": 3.2861000000000002,
+            "median_ms": 3.0955399999999997,
+            "min_ms": 2.66329,
             "n_runs": 5,
             "samples_ms": [
-              2.36513,
-              2.45996,
-              2.46862,
-              4.04662,
-              3.33029
+              3.0955399999999997,
+              2.66329,
+              3.45146,
+              2.77904,
+              4.4411700000000005
             ],
-            "sd_ms": 0.7348255736091388
+            "sd_ms": 0.714640799248126
           }
         },
         {
           "benchmark": "nTri=8192",
           "n_tri": 8192,
           "peak_rss_mb": {
-            "max": 13.47,
-            "mean": 12.75,
-            "median": 12.86,
-            "min": 11.7,
+            "max": 12.27,
+            "mean": 11.703999999999999,
+            "median": 11.72,
+            "min": 11.28,
             "n_runs": 5,
             "samples": [
-              11.7,
-              12.86,
-              12.95,
-              12.77,
-              13.47
+              11.73,
+              11.72,
+              11.52,
+              11.28,
+              12.27
             ],
-            "sd": 0.6467998144712168
+            "sd": 0.36569112649885294
           },
           "time_ms": {
-            "max_ms": 20.207,
-            "mean_ms": 11.361374000000001,
-            "median_ms": 9.67354,
-            "min_ms": 6.7800400000000005,
+            "max_ms": 11.3864,
+            "mean_ms": 9.412714,
+            "median_ms": 9.659080000000001,
+            "min_ms": 6.8505,
             "n_runs": 5,
             "samples_ms": [
-              8.15679,
-              11.9895,
-              6.7800400000000005,
-              9.67354,
-              20.207
+              6.8505,
+              9.500210000000001,
+              9.66738,
+              9.659080000000001,
+              11.3864
             ],
-            "sd_ms": 5.309105504883097
+            "sd_ms": 1.6273892847072577
           }
         },
         {
           "benchmark": "nTri=32768",
           "n_tri": 32768,
           "peak_rss_mb": {
-            "max": 35.3,
-            "mean": 33.786,
-            "median": 34.17,
-            "min": 31.33,
+            "max": 37.67,
+            "mean": 34.308,
+            "median": 33.55,
+            "min": 32.05,
             "n_runs": 5,
             "samples": [
-              32.91,
-              34.17,
-              35.22,
-              31.33,
-              35.3
+              37.67,
+              32.16,
+              32.05,
+              36.11,
+              33.55
             ],
-            "sd": 1.6804255413436209
+            "sd": 2.4918507178400575
           },
           "time_ms": {
-            "max_ms": 34.060300000000005,
-            "mean_ms": 26.11916,
-            "median_ms": 24.6345,
-            "min_ms": 19.4897,
+            "max_ms": 36.7131,
+            "mean_ms": 27.423399999999997,
+            "median_ms": 26.0052,
+            "min_ms": 20.0644,
             "n_runs": 5,
             "samples_ms": [
-              19.4897,
-              31.2923,
-              21.119,
-              24.6345,
-              34.060300000000005
+              20.0644,
+              22.9729,
+              31.361399999999996,
+              26.0052,
+              36.7131
             ],
-            "sd_ms": 6.343867849979224
+            "sd_ms": 6.666698819130799
           }
         },
         {
           "benchmark": "nTri=131072",
           "n_tri": 131072,
           "peak_rss_mb": {
-            "max": 131.91,
-            "mean": 123.864,
-            "median": 124.59,
-            "min": 113.84,
+            "max": 132.75,
+            "mean": 126.76399999999998,
+            "median": 127.28,
+            "min": 122.44,
             "n_runs": 5,
             "samples": [
-              121.59,
-              124.59,
-              131.91,
-              127.39,
-              113.84
+              132.75,
+              127.28,
+              123.58,
+              127.77,
+              122.44
             ],
-            "sd": 6.770330863406896
+            "sd": 4.060336192977129
           },
           "time_ms": {
-            "max_ms": 115.80600000000001,
-            "mean_ms": 89.06386,
-            "median_ms": 80.2861,
-            "min_ms": 67.7284,
+            "max_ms": 123.396,
+            "mean_ms": 105.82824000000001,
+            "median_ms": 107.116,
+            "min_ms": 88.3847,
             "n_runs": 5,
             "samples_ms": [
-              67.7284,
-              115.80600000000001,
-              68.64280000000001,
-              80.2861,
-              112.856
+              88.3847,
+              107.116,
+              114.631,
+              95.6135,
+              123.396
             ],
-            "sd_ms": 23.61397146347899
+            "sd_ms": 14.110201113485237
           }
         },
         {
           "benchmark": "nTri=524288",
           "n_tri": 524288,
           "peak_rss_mb": {
-            "max": 538.02,
-            "mean": 528.272,
-            "median": 523.83,
-            "min": 520.81,
+            "max": 532.69,
+            "mean": 528.888,
+            "median": 530.72,
+            "min": 521.11,
             "n_runs": 5,
             "samples": [
-              523.83,
-              520.81,
-              536.97,
-              538.02,
-              521.73
+              530.72,
+              532.59,
+              521.11,
+              532.69,
+              527.33
             ],
-            "sd": 8.498371608725996
+            "sd": 4.859034883595723
           },
           "time_ms": {
-            "max_ms": 548.057,
-            "mean_ms": 473.75640000000004,
-            "median_ms": 478.765,
-            "min_ms": 377.64799999999997,
+            "max_ms": 800.183,
+            "mean_ms": 556.8254,
+            "median_ms": 473.24399999999997,
+            "min_ms": 378.815,
             "n_runs": 5,
             "samples_ms": [
-              548.057,
-              377.64799999999997,
-              478.765,
-              474.70099999999996,
-              489.611
+              800.183,
+              473.24399999999997,
+              378.815,
+              438.261,
+              693.624
             ],
-            "sd_ms": 61.30813648122084
+            "sd_ms": 180.7400400583667
           }
         },
         {
           "benchmark": "nTri=2097152",
           "n_tri": 2097152,
           "peak_rss_mb": {
-            "max": 2088.08,
-            "mean": 1973.7720000000002,
-            "median": 2080.17,
-            "min": 1544.48,
+            "max": 2080.31,
+            "mean": 1952.154,
+            "median": 2072.44,
+            "min": 1466.8,
             "n_runs": 5,
             "samples": [
-              1544.48,
-              2083.19,
-              2088.08,
-              2080.17,
-              2072.94
+              1466.8,
+              2074.14,
+              2080.31,
+              2072.44,
+              2067.08
             ],
-            "sd": 240.0443008488225
+            "sd": 271.36219206072167
           },
           "time_ms": {
-            "max_ms": 2530.7,
-            "mean_ms": 1834.1239999999998,
-            "median_ms": 1786.96,
-            "min_ms": 1511.6499999999999,
+            "max_ms": 2147.42,
+            "mean_ms": 1740.1979999999999,
+            "median_ms": 1769.86,
+            "min_ms": 1344.98,
             "n_runs": 5,
             "samples_ms": [
-              2530.7,
-              1803.55,
-              1511.6499999999999,
-              1537.76,
-              1786.96
+              1769.86,
+              2147.42,
+              1595.3500000000001,
+              1843.38,
+              1344.98
             ],
-            "sd_ms": 412.3707183227247
+            "sd_ms": 297.7139261438739
           }
         },
         {
           "benchmark": "nTri=8388608",
           "n_tri": 8388608,
           "peak_rss_mb": {
-            "max": 4149.33,
-            "mean": 3949.032,
-            "median": 4090.55,
-            "min": 3297.69,
+            "max": 4100.16,
+            "mean": 3761.958,
+            "median": 3879.89,
+            "min": 3095.42,
             "n_runs": 5,
             "samples": [
-              3297.69,
-              4121.48,
-              4090.55,
-              4086.11,
-              4149.33
+              3095.42,
+              3879.89,
+              3904.55,
+              3829.77,
+              4100.16
             ],
-            "sd": 365.0074399515713
+            "sd": 386.4881630399564
           },
           "time_ms": {
-            "max_ms": 21786.4,
-            "mean_ms": 17346.620000000003,
-            "median_ms": 15742.900000000001,
-            "min_ms": 15295.400000000001,
+            "max_ms": 26031.199999999997,
+            "mean_ms": 18405.5,
+            "median_ms": 17344.100000000002,
+            "min_ms": 11450.6,
             "n_runs": 5,
             "samples_ms": [
-              21786.4,
-              15295.400000000001,
-              15643.599999999999,
-              18264.8,
-              15742.900000000001
+              26031.199999999997,
+              17242.0,
+              17344.100000000002,
+              11450.6,
+              19959.6
             ],
-            "sd_ms": 2749.290790731312
+            "sd_ms": 5277.723550926098
           }
         }
       ]
@@ -897,67 +897,67 @@
           "case_index": 16,
           "dominant_phase": "Intersect12 Q->P",
           "full_phase_sum_ms": {
-            "max_ms": 557.0,
-            "mean_ms": 482.0,
-            "median_ms": 467.0,
-            "min_ms": 439.0,
+            "max_ms": 551.0,
+            "mean_ms": 507.2,
+            "median_ms": 543.0,
+            "min_ms": 448.0,
             "n_runs": 5,
             "samples_ms": [
-              504.0,
-              557.0,
-              443.0,
-              467.0,
-              439.0
+              448.0,
+              448.0,
+              543.0,
+              546.0,
+              551.0
             ],
-            "sd_ms": 49.25444142409901
+            "sd_ms": 54.11746483345279
           },
           "id_a": 88566,
           "id_b": 58011,
           "intersect12_share": {
-            "max": 0.998015873015873,
-            "mean": 0.9975497280897446,
-            "median": 0.9977426636568849,
-            "min": 0.9964093357271095,
+            "max": 0.9981851179673321,
+            "mean": 0.9976412178338485,
+            "median": 0.9977678571428571,
+            "min": 0.996316758747698,
             "n_runs": 5,
             "samples": [
-              0.998015873015873,
-              0.9964093357271095,
-              0.9977426636568849,
-              0.9978586723768736,
-              0.9977220956719818
+              0.9977678571428571,
+              0.9977678571428571,
+              0.996316758747698,
+              0.9981684981684982,
+              0.9981851179673321
             ],
-            "sd": 0.0006481063033822751
+            "sd": 0.0007681339086661219
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 199.0,
-              "mean_ms": 181.8,
-              "median_ms": 179.0,
-              "min_ms": 171.0,
+              "max_ms": 220.0,
+              "mean_ms": 196.6,
+              "median_ms": 195.0,
+              "min_ms": 179.0,
               "n_runs": 5,
               "samples_ms": [
-                199.0,
-                185.0,
-                171.0,
                 179.0,
-                175.0
+                182.0,
+                195.0,
+                207.0,
+                220.0
               ],
-              "sd_ms": 10.917875251164945
+              "sd_ms": 17.18429515575195
             },
             "Intersect12 Q->P": {
-              "max_ms": 370.0,
-              "mean_ms": 299.0,
-              "median_ms": 287.0,
-              "min_ms": 263.0,
+              "max_ms": 346.0,
+              "mean_ms": 309.4,
+              "median_ms": 330.0,
+              "min_ms": 265.0,
               "n_runs": 5,
               "samples_ms": [
-                304.0,
-                370.0,
-                271.0,
-                287.0,
-                263.0
+                268.0,
+                265.0,
+                346.0,
+                338.0,
+                330.0
               ],
-              "sd_ms": 42.69074841227312
+              "sd_ms": 39.582824558133794
             },
             "Winding03 P": {
               "max_ms": 0.0,
@@ -982,8 +982,8 @@
               "n_runs": 5,
               "samples_ms": [
                 1.0,
-                2.0,
                 1.0,
+                2.0,
                 1.0,
                 1.0
               ],
@@ -995,86 +995,86 @@
           "case_index": 84,
           "dominant_phase": "Intersect12 P->Q",
           "full_phase_sum_ms": {
-            "max_ms": 445.0,
-            "mean_ms": 415.2,
-            "median_ms": 403.0,
-            "min_ms": 395.0,
+            "max_ms": 504.0,
+            "mean_ms": 447.6,
+            "median_ms": 434.0,
+            "min_ms": 401.0,
             "n_runs": 5,
             "samples_ms": [
-              395.0,
+              401.0,
+              434.0,
               433.0,
-              403.0,
-              445.0,
-              400.0
+              504.0,
+              466.0
             ],
-            "sd_ms": 22.320394261750845
+            "sd_ms": 39.016663106934196
           },
           "id_a": 1706459,
           "id_b": 1514499,
           "intersect12_share": {
-            "max": 0.9924050632911392,
-            "mean": 0.9908505731289713,
+            "max": 0.9914163090128756,
+            "mean": 0.9896157230851192,
             "median": 0.9907621247113164,
-            "min": 0.99,
+            "min": 0.9850374064837906,
             "n_runs": 5,
             "samples": [
-              0.9924050632911392,
+              0.9850374064837906,
+              0.9907834101382489,
               0.9907621247113164,
-              0.9900744416873449,
-              0.9910112359550561,
-              0.99
+              0.9900793650793651,
+              0.9914163090128756
             ],
-            "sd": 0.0009715876173764608
+            "sd": 0.00260268064822878
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 259.0,
-              "mean_ms": 240.6,
-              "median_ms": 233.0,
-              "min_ms": 230.0,
+              "max_ms": 273.0,
+              "mean_ms": 243.0,
+              "median_ms": 237.0,
+              "min_ms": 222.0,
               "n_runs": 5,
               "samples_ms": [
+                222.0,
                 233.0,
-                251.0,
-                230.0,
-                259.0,
-                230.0
+                250.0,
+                273.0,
+                237.0
               ],
-              "sd_ms": 13.501851724856113
+              "sd_ms": 19.53202498462461
             },
             "Intersect12 Q->P": {
-              "max_ms": 182.0,
-              "mean_ms": 170.8,
-              "median_ms": 169.0,
-              "min_ms": 159.0,
+              "max_ms": 226.0,
+              "mean_ms": 200.0,
+              "median_ms": 197.0,
+              "min_ms": 173.0,
               "n_runs": 5,
               "samples_ms": [
-                159.0,
-                178.0,
-                169.0,
-                182.0,
-                166.0
+                173.0,
+                197.0,
+                179.0,
+                226.0,
+                225.0
               ],
-              "sd_ms": 9.257429448826494
+              "sd_ms": 24.899799195977465
             },
             "Winding03 P": {
-              "max_ms": 3.0,
-              "mean_ms": 2.8,
+              "max_ms": 5.0,
+              "mean_ms": 3.4,
               "median_ms": 3.0,
-              "min_ms": 2.0,
+              "min_ms": 3.0,
               "n_runs": 5,
               "samples_ms": [
-                2.0,
+                5.0,
                 3.0,
                 3.0,
                 3.0,
                 3.0
               ],
-              "sd_ms": 0.4472135954999579
+              "sd_ms": 0.8944271909999159
             },
             "Winding03 Q": {
-              "max_ms": 1.0,
-              "mean_ms": 1.0,
+              "max_ms": 2.0,
+              "mean_ms": 1.2,
               "median_ms": 1.0,
               "min_ms": 1.0,
               "n_runs": 5,
@@ -1082,10 +1082,10 @@
                 1.0,
                 1.0,
                 1.0,
-                1.0,
+                2.0,
                 1.0
               ],
-              "sd_ms": 0.0
+              "sd_ms": 0.4472135954999579
             }
           }
         },
@@ -1093,67 +1093,67 @@
           "case_index": 667,
           "dominant_phase": "Intersect12 Q->P",
           "full_phase_sum_ms": {
-            "max_ms": 1543.0,
-            "mean_ms": 1254.6,
-            "median_ms": 1191.0,
-            "min_ms": 1160.0,
+            "max_ms": 1576.0,
+            "mean_ms": 1434.2,
+            "median_ms": 1381.0,
+            "min_ms": 1303.0,
             "n_runs": 5,
             "samples_ms": [
-              1160.0,
-              1543.0,
-              1200.0,
-              1191.0,
-              1179.0
+              1381.0,
+              1303.0,
+              1576.0,
+              1531.0,
+              1380.0
             ],
-            "sd_ms": 161.914483601684
+            "sd_ms": 114.51943066571717
           },
           "id_a": 472042,
           "id_b": 99865,
           "intersect12_share": {
-            "max": 0.9980557355800389,
-            "mean": 0.997244919595943,
-            "median": 0.9974137931034482,
-            "min": 0.996607294317218,
+            "max": 0.9980404964075767,
+            "mean": 0.9973276217313074,
+            "median": 0.9974619289340102,
+            "min": 0.99637943519189,
             "n_runs": 5,
             "samples": [
-              0.9974137931034482,
-              0.9980557355800389,
-              0.9966666666666667,
-              0.9974811083123426,
-              0.996607294317218
+              0.99637943519189,
+              0.9969301611665388,
+              0.9974619289340102,
+              0.9980404964075767,
+              0.9978260869565218
             ],
-            "sd": 0.0006088243543179846
+            "sd": 0.0006767069017659257
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 618.0,
-              "mean_ms": 500.0,
-              "median_ms": 477.0,
-              "min_ms": 454.0,
+              "max_ms": 641.0,
+              "mean_ms": 561.0,
+              "median_ms": 576.0,
+              "min_ms": 480.0,
               "n_runs": 5,
               "samples_ms": [
-                454.0,
-                618.0,
-                477.0,
-                478.0,
-                473.0
+                480.0,
+                522.0,
+                641.0,
+                586.0,
+                576.0
               ],
-              "sd_ms": 66.67458286333706
+              "sd_ms": 61.91122676865643
             },
             "Intersect12 Q->P": {
-              "max_ms": 922.0,
-              "mean_ms": 751.2,
-              "median_ms": 710.0,
-              "min_ms": 702.0,
+              "max_ms": 942.0,
+              "mean_ms": 869.4,
+              "median_ms": 896.0,
+              "min_ms": 777.0,
               "n_runs": 5,
               "samples_ms": [
-                703.0,
-                922.0,
-                719.0,
-                710.0,
-                702.0
+                896.0,
+                777.0,
+                931.0,
+                942.0,
+                801.0
               ],
-              "sd_ms": 95.72199329307763
+              "sd_ms": 75.81094907729357
             },
             "Winding03 P": {
               "max_ms": 0.0,
@@ -1171,19 +1171,19 @@
               "sd_ms": 0.0
             },
             "Winding03 Q": {
-              "max_ms": 4.0,
-              "mean_ms": 3.4,
-              "median_ms": 3.0,
+              "max_ms": 5.0,
+              "mean_ms": 3.8,
+              "median_ms": 4.0,
               "min_ms": 3.0,
               "n_runs": 5,
               "samples_ms": [
-                3.0,
-                3.0,
+                5.0,
+                4.0,
                 4.0,
                 3.0,
-                4.0
+                3.0
               ],
-              "sd_ms": 0.5477225575051661
+              "sd_ms": 0.8366600265340756
             }
           }
         },
@@ -1191,97 +1191,97 @@
           "case_index": 695,
           "dominant_phase": "Intersect12 P->Q",
           "full_phase_sum_ms": {
-            "max_ms": 546.0,
-            "mean_ms": 525.4,
-            "median_ms": 525.0,
-            "min_ms": 507.0,
+            "max_ms": 672.0,
+            "mean_ms": 583.8,
+            "median_ms": 571.0,
+            "min_ms": 501.0,
             "n_runs": 5,
             "samples_ms": [
-              534.0,
-              515.0,
-              525.0,
-              546.0,
-              507.0
+              563.0,
+              501.0,
+              672.0,
+              612.0,
+              571.0
             ],
-            "sd_ms": 15.372052563011877
+            "sd_ms": 63.29849919231893
           },
           "id_a": 1147240,
           "id_b": 520644,
           "intersect12_share": {
-            "max": 0.9904761904761905,
-            "mean": 0.9893477612110502,
-            "median": 0.989010989010989,
-            "min": 0.9883495145631068,
+            "max": 0.9912434325744308,
+            "mean": 0.9894818840674204,
+            "median": 0.9900199600798403,
+            "min": 0.9866071428571429,
             "n_runs": 5,
             "samples": [
-              0.9887640449438202,
-              0.9883495145631068,
-              0.9904761904761905,
-              0.989010989010989,
-              0.9901380670611439
+              0.9893428063943162,
+              0.9900199600798403,
+              0.9866071428571429,
+              0.9901960784313726,
+              0.9912434325744308
             ],
-            "sd": 0.0009149552596453312
+            "sd": 0.001745432049122593
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 367.0,
-              "mean_ms": 358.4,
-              "median_ms": 355.0,
-              "min_ms": 352.0,
+              "max_ms": 474.0,
+              "mean_ms": 403.0,
+              "median_ms": 410.0,
+              "min_ms": 341.0,
               "n_runs": 5,
               "samples_ms": [
-                365.0,
-                355.0,
-                367.0,
-                353.0,
-                352.0
+                377.0,
+                341.0,
+                474.0,
+                413.0,
+                410.0
               ],
-              "sd_ms": 7.05691150575094
+              "sd_ms": 49.26966612430005
             },
             "Intersect12 Q->P": {
-              "max_ms": 187.0,
-              "mean_ms": 161.4,
-              "median_ms": 154.0,
-              "min_ms": 150.0,
+              "max_ms": 193.0,
+              "mean_ms": 174.6,
+              "median_ms": 180.0,
+              "min_ms": 155.0,
               "n_runs": 5,
               "samples_ms": [
-                163.0,
-                154.0,
-                153.0,
-                187.0,
-                150.0
+                180.0,
+                155.0,
+                189.0,
+                193.0,
+                156.0
               ],
-              "sd_ms": 15.109599597606815
+              "sd_ms": 18.06377590649308
             },
             "Winding03 P": {
-              "max_ms": 6.0,
-              "mean_ms": 5.6,
+              "max_ms": 8.0,
+              "mean_ms": 6.0,
               "median_ms": 6.0,
               "min_ms": 5.0,
               "n_runs": 5,
               "samples_ms": [
                 6.0,
-                6.0,
                 5.0,
+                8.0,
                 6.0,
                 5.0
               ],
-              "sd_ms": 0.5477225575051661
+              "sd_ms": 1.224744871391589
             },
             "Winding03 Q": {
-              "max_ms": 0.0,
-              "mean_ms": 0.0,
+              "max_ms": 1.0,
+              "mean_ms": 0.2,
               "median_ms": 0.0,
               "min_ms": 0.0,
               "n_runs": 5,
               "samples_ms": [
                 0.0,
                 0.0,
-                0.0,
+                1.0,
                 0.0,
                 0.0
               ],
-              "sd_ms": 0.0
+              "sd_ms": 0.4472135954999579
             }
           }
         },
@@ -1289,67 +1289,67 @@
           "case_index": 260,
           "dominant_phase": "Intersect12 Q->P",
           "full_phase_sum_ms": {
-            "max_ms": 193.0,
-            "mean_ms": 182.4,
-            "median_ms": 187.0,
-            "min_ms": 167.0,
+            "max_ms": 219.0,
+            "mean_ms": 201.6,
+            "median_ms": 202.0,
+            "min_ms": 183.0,
             "n_runs": 5,
             "samples_ms": [
-              193.0,
-              167.0,
-              188.0,
-              187.0,
-              177.0
+              202.0,
+              219.0,
+              206.0,
+              183.0,
+              198.0
             ],
-            "sd_ms": 10.382677881933928
+            "sd_ms": 13.049904214207858
           },
           "id_a": 908460,
           "id_b": 73416,
           "intersect12_share": {
-            "max": 0.9740932642487047,
-            "mean": 0.9692508768578264,
-            "median": 0.9680851063829787,
-            "min": 0.9661016949152542,
+            "max": 0.9752475247524752,
+            "mean": 0.9702528122820283,
+            "median": 0.9680365296803652,
+            "min": 0.9660194174757282,
             "n_runs": 5,
             "samples": [
-              0.9740932642487047,
-              0.9700598802395209,
-              0.9680851063829787,
-              0.9679144385026738,
-              0.9661016949152542
+              0.9752475247524752,
+              0.9680365296803652,
+              0.9660194174757282,
+              0.9672131147540983,
+              0.9747474747474747
             ],
-            "sd": 0.003048181314304584
+            "sd": 0.004393815100754627
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 96.0,
-              "mean_ms": 83.0,
-              "median_ms": 79.0,
-              "min_ms": 74.0,
+              "max_ms": 94.0,
+              "mean_ms": 88.6,
+              "median_ms": 91.0,
+              "min_ms": 80.0,
               "n_runs": 5,
               "samples_ms": [
-                96.0,
-                74.0,
-                79.0,
-                89.0,
-                77.0
+                94.0,
+                93.0,
+                85.0,
+                80.0,
+                91.0
               ],
-              "sd_ms": 9.192388155425117
+              "sd_ms": 5.9413803110051795
             },
             "Intersect12 Q->P": {
-              "max_ms": 103.0,
-              "mean_ms": 93.8,
-              "median_ms": 92.0,
-              "min_ms": 88.0,
+              "max_ms": 119.0,
+              "mean_ms": 107.0,
+              "median_ms": 103.0,
+              "min_ms": 97.0,
               "n_runs": 5,
               "samples_ms": [
-                92.0,
-                88.0,
                 103.0,
-                92.0,
-                94.0
+                119.0,
+                114.0,
+                97.0,
+                102.0
               ],
-              "sd_ms": 5.585696017507576
+              "sd_ms": 9.137833441248533
             },
             "Winding03 P": {
               "max_ms": 2.0,
@@ -1367,19 +1367,19 @@
               "sd_ms": 0.0
             },
             "Winding03 Q": {
-              "max_ms": 4.0,
-              "mean_ms": 3.6,
+              "max_ms": 5.0,
+              "mean_ms": 4.0,
               "median_ms": 4.0,
               "min_ms": 3.0,
               "n_runs": 5,
               "samples_ms": [
                 3.0,
-                3.0,
+                5.0,
+                5.0,
                 4.0,
-                4.0,
-                4.0
+                3.0
               ],
-              "sd_ms": 0.5477225575051661
+              "sd_ms": 1.0
             }
           }
         },
@@ -1387,82 +1387,82 @@
           "case_index": 406,
           "dominant_phase": "Intersect12 P->Q",
           "full_phase_sum_ms": {
-            "max_ms": 170.0,
-            "mean_ms": 152.4,
-            "median_ms": 153.0,
-            "min_ms": 137.0,
+            "max_ms": 197.0,
+            "mean_ms": 166.2,
+            "median_ms": 162.0,
+            "min_ms": 140.0,
             "n_runs": 5,
             "samples_ms": [
-              153.0,
-              170.0,
-              154.0,
-              137.0,
-              148.0
+              175.0,
+              197.0,
+              157.0,
+              140.0,
+              162.0
             ],
-            "sd_ms": 11.92895636675732
+            "sd_ms": 21.300234740490538
           },
           "id_a": 1063852,
           "id_b": 72214,
           "intersect12_share": {
-            "max": 0.9797297297297297,
-            "mean": 0.9764369381844693,
-            "median": 0.9764705882352941,
-            "min": 0.9738562091503268,
+            "max": 0.9828571428571429,
+            "mean": 0.9782303050230023,
+            "median": 0.9796954314720813,
+            "min": 0.9691358024691358,
             "n_runs": 5,
             "samples": [
-              0.9738562091503268,
-              0.9764705882352941,
-              0.974025974025974,
-              0.9781021897810219,
-              0.9797297297297297
+              0.9828571428571429,
+              0.9796954314720813,
+              0.9808917197452229,
+              0.9785714285714285,
+              0.9691358024691358
             ],
-            "sd": 0.0025538980934786287
+            "sd": 0.00532596691119213
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 109.0,
-              "mean_ms": 94.2,
-              "median_ms": 92.0,
-              "min_ms": 85.0,
+              "max_ms": 126.0,
+              "mean_ms": 104.4,
+              "median_ms": 102.0,
+              "min_ms": 86.0,
               "n_runs": 5,
               "samples_ms": [
-                92.0,
-                109.0,
-                94.0,
-                85.0,
-                91.0
+                110.0,
+                126.0,
+                102.0,
+                86.0,
+                98.0
               ],
-              "sd_ms": 8.927485648266257
+              "sd_ms": 14.859340496805368
             },
             "Intersect12 Q->P": {
-              "max_ms": 57.0,
-              "mean_ms": 54.6,
-              "median_ms": 56.0,
-              "min_ms": 49.0,
+              "max_ms": 67.0,
+              "mean_ms": 58.2,
+              "median_ms": 59.0,
+              "min_ms": 51.0,
               "n_runs": 5,
               "samples_ms": [
-                57.0,
-                57.0,
-                56.0,
-                49.0,
-                54.0
+                62.0,
+                67.0,
+                52.0,
+                51.0,
+                59.0
               ],
-              "sd_ms": 3.361547262794322
+              "sd_ms": 6.760177512462228
             },
             "Winding03 P": {
-              "max_ms": 4.0,
+              "max_ms": 5.0,
               "mean_ms": 3.6,
-              "median_ms": 4.0,
+              "median_ms": 3.0,
               "min_ms": 3.0,
               "n_runs": 5,
               "samples_ms": [
-                4.0,
-                4.0,
+                3.0,
                 4.0,
                 3.0,
-                3.0
+                3.0,
+                5.0
               ],
-              "sd_ms": 0.5477225575051661
+              "sd_ms": 0.8944271909999159
             },
             "Winding03 Q": {
               "max_ms": 0.0,
@@ -1485,82 +1485,82 @@
           "case_index": 551,
           "dominant_phase": "Intersect12 P->Q",
           "full_phase_sum_ms": {
-            "max_ms": 124.0,
-            "mean_ms": 115.8,
-            "median_ms": 114.0,
-            "min_ms": 109.0,
+            "max_ms": 141.0,
+            "mean_ms": 125.6,
+            "median_ms": 124.0,
+            "min_ms": 115.0,
             "n_runs": 5,
             "samples_ms": [
+              115.0,
+              141.0,
               124.0,
-              121.0,
-              109.0,
-              114.0,
-              111.0
+              131.0,
+              117.0
             ],
-            "sd_ms": 6.457553716385176
+            "sd_ms": 10.667708282475669
           },
           "id_a": 390936,
           "id_b": 112932,
           "intersect12_share": {
-            "max": 0.9649122807017544,
-            "mean": 0.9604539278909263,
-            "median": 0.963302752293578,
-            "min": 0.9504132231404959,
+            "max": 0.9694656488549618,
+            "mean": 0.9618144450579488,
+            "median": 0.9596774193548387,
+            "min": 0.9572649572649573,
             "n_runs": 5,
             "samples": [
+              0.9652173913043478,
+              0.9574468085106383,
               0.9596774193548387,
-              0.9504132231404959,
-              0.963302752293578,
-              0.9649122807017544,
-              0.963963963963964
+              0.9694656488549618,
+              0.9572649572649573
             ],
-            "sd": 0.00595255787222855
+            "sd": 0.005349344112670276
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 74.0,
-              "mean_ms": 65.8,
-              "median_ms": 63.0,
-              "min_ms": 61.0,
+              "max_ms": 82.0,
+              "mean_ms": 70.2,
+              "median_ms": 66.0,
+              "min_ms": 59.0,
               "n_runs": 5,
               "samples_ms": [
-                74.0,
-                69.0,
-                61.0,
-                62.0,
-                63.0
+                63.0,
+                82.0,
+                66.0,
+                81.0,
+                59.0
               ],
-              "sd_ms": 5.540758070878027
+              "sd_ms": 10.61602562167217
             },
             "Intersect12 Q->P": {
-              "max_ms": 48.0,
-              "mean_ms": 45.4,
-              "median_ms": 45.0,
-              "min_ms": 44.0,
+              "max_ms": 53.0,
+              "mean_ms": 50.6,
+              "median_ms": 53.0,
+              "min_ms": 46.0,
               "n_runs": 5,
               "samples_ms": [
-                45.0,
-                46.0,
-                44.0,
                 48.0,
-                44.0
+                53.0,
+                53.0,
+                46.0,
+                53.0
               ],
-              "sd_ms": 1.6733200530681511
+              "sd_ms": 3.361547262794322
             },
             "Winding03 P": {
               "max_ms": 6.0,
-              "mean_ms": 4.6,
-              "median_ms": 4.0,
+              "mean_ms": 4.8,
+              "median_ms": 5.0,
               "min_ms": 4.0,
               "n_runs": 5,
               "samples_ms": [
-                5.0,
+                4.0,
                 6.0,
+                5.0,
                 4.0,
-                4.0,
-                4.0
+                5.0
               ],
-              "sd_ms": 0.8944271909999159
+              "sd_ms": 0.8366600265340756
             },
             "Winding03 Q": {
               "max_ms": 0.0,
@@ -1583,67 +1583,67 @@
           "case_index": 582,
           "dominant_phase": "Intersect12 P->Q",
           "full_phase_sum_ms": {
-            "max_ms": 47.0,
-            "mean_ms": 45.2,
-            "median_ms": 46.0,
-            "min_ms": 43.0,
+            "max_ms": 51.0,
+            "mean_ms": 50.4,
+            "median_ms": 51.0,
+            "min_ms": 49.0,
             "n_runs": 5,
             "samples_ms": [
-              44.0,
-              46.0,
-              47.0,
-              46.0,
-              43.0
+              50.0,
+              51.0,
+              49.0,
+              51.0,
+              51.0
             ],
-            "sd_ms": 1.6431676725154984
+            "sd_ms": 0.8944271909999159
           },
           "id_a": 79741,
           "id_b": 65004,
           "intersect12_share": {
             "max": 1.0,
-            "mean": 0.9957446808510639,
+            "mean": 0.996078431372549,
             "median": 1.0,
-            "min": 0.9787234042553191,
+            "min": 0.9803921568627451,
             "n_runs": 5,
             "samples": [
               1.0,
               1.0,
-              0.9787234042553191,
               1.0,
-              1.0
+              1.0,
+              0.9803921568627451
             ],
-            "sd": 0.009515182882977842
+            "sd": 0.008768894029410959
           },
           "phases": {
             "Intersect12 P->Q": {
-              "max_ms": 26.0,
-              "mean_ms": 25.2,
-              "median_ms": 26.0,
-              "min_ms": 24.0,
+              "max_ms": 29.0,
+              "mean_ms": 28.2,
+              "median_ms": 28.0,
+              "min_ms": 27.0,
               "n_runs": 5,
               "samples_ms": [
-                24.0,
-                26.0,
-                26.0,
-                26.0,
-                24.0
+                28.0,
+                27.0,
+                28.0,
+                29.0,
+                29.0
               ],
-              "sd_ms": 1.0954451150103321
+              "sd_ms": 0.8366600265340756
             },
             "Intersect12 Q->P": {
-              "max_ms": 20.0,
-              "mean_ms": 19.8,
-              "median_ms": 20.0,
-              "min_ms": 19.0,
+              "max_ms": 24.0,
+              "mean_ms": 22.0,
+              "median_ms": 22.0,
+              "min_ms": 21.0,
               "n_runs": 5,
               "samples_ms": [
-                20.0,
-                20.0,
-                20.0,
-                20.0,
-                19.0
+                22.0,
+                24.0,
+                21.0,
+                22.0,
+                21.0
               ],
-              "sd_ms": 0.4472135954999579
+              "sd_ms": 1.224744871391589
             },
             "Winding03 P": {
               "max_ms": 1.0,
@@ -1654,9 +1654,9 @@
               "samples_ms": [
                 0.0,
                 0.0,
-                1.0,
                 0.0,
-                0.0
+                0.0,
+                1.0
               ],
               "sd_ms": 0.4472135954999579
             },
@@ -1691,8 +1691,8 @@
             {
               "case_index": 16,
               "phases_ms": {
-                "Intersect12 P->Q": 199.0,
-                "Intersect12 Q->P": 304.0,
+                "Intersect12 P->Q": 179.0,
+                "Intersect12 Q->P": 268.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 1.0
               }
@@ -1700,26 +1700,26 @@
             {
               "case_index": 84,
               "phases_ms": {
-                "Intersect12 P->Q": 233.0,
-                "Intersect12 Q->P": 159.0,
-                "Winding03 P": 2.0,
+                "Intersect12 P->Q": 222.0,
+                "Intersect12 Q->P": 173.0,
+                "Winding03 P": 5.0,
                 "Winding03 Q": 1.0
               }
             },
             {
               "case_index": 667,
               "phases_ms": {
-                "Intersect12 P->Q": 454.0,
-                "Intersect12 Q->P": 703.0,
+                "Intersect12 P->Q": 480.0,
+                "Intersect12 Q->P": 896.0,
                 "Winding03 P": 0.0,
-                "Winding03 Q": 3.0
+                "Winding03 Q": 5.0
               }
             },
             {
               "case_index": 695,
               "phases_ms": {
-                "Intersect12 P->Q": 365.0,
-                "Intersect12 Q->P": 163.0,
+                "Intersect12 P->Q": 377.0,
+                "Intersect12 Q->P": 180.0,
                 "Winding03 P": 6.0,
                 "Winding03 Q": 0.0
               }
@@ -1727,8 +1727,8 @@
             {
               "case_index": 260,
               "phases_ms": {
-                "Intersect12 P->Q": 96.0,
-                "Intersect12 Q->P": 92.0,
+                "Intersect12 P->Q": 94.0,
+                "Intersect12 Q->P": 103.0,
                 "Winding03 P": 2.0,
                 "Winding03 Q": 3.0
               }
@@ -1736,26 +1736,26 @@
             {
               "case_index": 406,
               "phases_ms": {
-                "Intersect12 P->Q": 92.0,
-                "Intersect12 Q->P": 57.0,
-                "Winding03 P": 4.0,
+                "Intersect12 P->Q": 110.0,
+                "Intersect12 Q->P": 62.0,
+                "Winding03 P": 3.0,
                 "Winding03 Q": 0.0
               }
             },
             {
               "case_index": 551,
               "phases_ms": {
-                "Intersect12 P->Q": 74.0,
-                "Intersect12 Q->P": 45.0,
-                "Winding03 P": 5.0,
+                "Intersect12 P->Q": 63.0,
+                "Intersect12 Q->P": 48.0,
+                "Winding03 P": 4.0,
                 "Winding03 Q": 0.0
               }
             },
             {
               "case_index": 582,
               "phases_ms": {
-                "Intersect12 P->Q": 24.0,
-                "Intersect12 Q->P": 20.0,
+                "Intersect12 P->Q": 28.0,
+                "Intersect12 Q->P": 22.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 0.0
               }
@@ -1769,17 +1769,17 @@
             {
               "case_index": 16,
               "phases_ms": {
-                "Intersect12 P->Q": 185.0,
-                "Intersect12 Q->P": 370.0,
+                "Intersect12 P->Q": 182.0,
+                "Intersect12 Q->P": 265.0,
                 "Winding03 P": 0.0,
-                "Winding03 Q": 2.0
+                "Winding03 Q": 1.0
               }
             },
             {
               "case_index": 84,
               "phases_ms": {
-                "Intersect12 P->Q": 251.0,
-                "Intersect12 Q->P": 178.0,
+                "Intersect12 P->Q": 233.0,
+                "Intersect12 Q->P": 197.0,
                 "Winding03 P": 3.0,
                 "Winding03 Q": 1.0
               }
@@ -1787,35 +1787,35 @@
             {
               "case_index": 667,
               "phases_ms": {
-                "Intersect12 P->Q": 618.0,
-                "Intersect12 Q->P": 922.0,
+                "Intersect12 P->Q": 522.0,
+                "Intersect12 Q->P": 777.0,
                 "Winding03 P": 0.0,
-                "Winding03 Q": 3.0
+                "Winding03 Q": 4.0
               }
             },
             {
               "case_index": 695,
               "phases_ms": {
-                "Intersect12 P->Q": 355.0,
-                "Intersect12 Q->P": 154.0,
-                "Winding03 P": 6.0,
+                "Intersect12 P->Q": 341.0,
+                "Intersect12 Q->P": 155.0,
+                "Winding03 P": 5.0,
                 "Winding03 Q": 0.0
               }
             },
             {
               "case_index": 260,
               "phases_ms": {
-                "Intersect12 P->Q": 74.0,
-                "Intersect12 Q->P": 88.0,
+                "Intersect12 P->Q": 93.0,
+                "Intersect12 Q->P": 119.0,
                 "Winding03 P": 2.0,
-                "Winding03 Q": 3.0
+                "Winding03 Q": 5.0
               }
             },
             {
               "case_index": 406,
               "phases_ms": {
-                "Intersect12 P->Q": 109.0,
-                "Intersect12 Q->P": 57.0,
+                "Intersect12 P->Q": 126.0,
+                "Intersect12 Q->P": 67.0,
                 "Winding03 P": 4.0,
                 "Winding03 Q": 0.0
               }
@@ -1823,8 +1823,8 @@
             {
               "case_index": 551,
               "phases_ms": {
-                "Intersect12 P->Q": 69.0,
-                "Intersect12 Q->P": 46.0,
+                "Intersect12 P->Q": 82.0,
+                "Intersect12 Q->P": 53.0,
                 "Winding03 P": 6.0,
                 "Winding03 Q": 0.0
               }
@@ -1832,8 +1832,8 @@
             {
               "case_index": 582,
               "phases_ms": {
-                "Intersect12 P->Q": 26.0,
-                "Intersect12 Q->P": 20.0,
+                "Intersect12 P->Q": 27.0,
+                "Intersect12 Q->P": 24.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 0.0
               }
@@ -1847,17 +1847,17 @@
             {
               "case_index": 16,
               "phases_ms": {
-                "Intersect12 P->Q": 171.0,
-                "Intersect12 Q->P": 271.0,
+                "Intersect12 P->Q": 195.0,
+                "Intersect12 Q->P": 346.0,
                 "Winding03 P": 0.0,
-                "Winding03 Q": 1.0
+                "Winding03 Q": 2.0
               }
             },
             {
               "case_index": 84,
               "phases_ms": {
-                "Intersect12 P->Q": 230.0,
-                "Intersect12 Q->P": 169.0,
+                "Intersect12 P->Q": 250.0,
+                "Intersect12 Q->P": 179.0,
                 "Winding03 P": 3.0,
                 "Winding03 Q": 1.0
               }
@@ -1865,8 +1865,8 @@
             {
               "case_index": 667,
               "phases_ms": {
-                "Intersect12 P->Q": 477.0,
-                "Intersect12 Q->P": 719.0,
+                "Intersect12 P->Q": 641.0,
+                "Intersect12 Q->P": 931.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 4.0
               }
@@ -1874,45 +1874,45 @@
             {
               "case_index": 695,
               "phases_ms": {
-                "Intersect12 P->Q": 367.0,
-                "Intersect12 Q->P": 153.0,
-                "Winding03 P": 5.0,
-                "Winding03 Q": 0.0
+                "Intersect12 P->Q": 474.0,
+                "Intersect12 Q->P": 189.0,
+                "Winding03 P": 8.0,
+                "Winding03 Q": 1.0
               }
             },
             {
               "case_index": 260,
               "phases_ms": {
-                "Intersect12 P->Q": 79.0,
-                "Intersect12 Q->P": 103.0,
+                "Intersect12 P->Q": 85.0,
+                "Intersect12 Q->P": 114.0,
                 "Winding03 P": 2.0,
-                "Winding03 Q": 4.0
+                "Winding03 Q": 5.0
               }
             },
             {
               "case_index": 406,
               "phases_ms": {
-                "Intersect12 P->Q": 94.0,
-                "Intersect12 Q->P": 56.0,
-                "Winding03 P": 4.0,
+                "Intersect12 P->Q": 102.0,
+                "Intersect12 Q->P": 52.0,
+                "Winding03 P": 3.0,
                 "Winding03 Q": 0.0
               }
             },
             {
               "case_index": 551,
               "phases_ms": {
-                "Intersect12 P->Q": 61.0,
-                "Intersect12 Q->P": 44.0,
-                "Winding03 P": 4.0,
+                "Intersect12 P->Q": 66.0,
+                "Intersect12 Q->P": 53.0,
+                "Winding03 P": 5.0,
                 "Winding03 Q": 0.0
               }
             },
             {
               "case_index": 582,
               "phases_ms": {
-                "Intersect12 P->Q": 26.0,
-                "Intersect12 Q->P": 20.0,
-                "Winding03 P": 1.0,
+                "Intersect12 P->Q": 28.0,
+                "Intersect12 Q->P": 21.0,
+                "Winding03 P": 0.0,
                 "Winding03 Q": 0.0
               }
             }
@@ -1925,8 +1925,8 @@
             {
               "case_index": 16,
               "phases_ms": {
-                "Intersect12 P->Q": 179.0,
-                "Intersect12 Q->P": 287.0,
+                "Intersect12 P->Q": 207.0,
+                "Intersect12 Q->P": 338.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 1.0
               }
@@ -1934,17 +1934,17 @@
             {
               "case_index": 84,
               "phases_ms": {
-                "Intersect12 P->Q": 259.0,
-                "Intersect12 Q->P": 182.0,
+                "Intersect12 P->Q": 273.0,
+                "Intersect12 Q->P": 226.0,
                 "Winding03 P": 3.0,
-                "Winding03 Q": 1.0
+                "Winding03 Q": 2.0
               }
             },
             {
               "case_index": 667,
               "phases_ms": {
-                "Intersect12 P->Q": 478.0,
-                "Intersect12 Q->P": 710.0,
+                "Intersect12 P->Q": 586.0,
+                "Intersect12 Q->P": 942.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 3.0
               }
@@ -1952,8 +1952,8 @@
             {
               "case_index": 695,
               "phases_ms": {
-                "Intersect12 P->Q": 353.0,
-                "Intersect12 Q->P": 187.0,
+                "Intersect12 P->Q": 413.0,
+                "Intersect12 Q->P": 193.0,
                 "Winding03 P": 6.0,
                 "Winding03 Q": 0.0
               }
@@ -1961,8 +1961,8 @@
             {
               "case_index": 260,
               "phases_ms": {
-                "Intersect12 P->Q": 89.0,
-                "Intersect12 Q->P": 92.0,
+                "Intersect12 P->Q": 80.0,
+                "Intersect12 Q->P": 97.0,
                 "Winding03 P": 2.0,
                 "Winding03 Q": 4.0
               }
@@ -1970,8 +1970,8 @@
             {
               "case_index": 406,
               "phases_ms": {
-                "Intersect12 P->Q": 85.0,
-                "Intersect12 Q->P": 49.0,
+                "Intersect12 P->Q": 86.0,
+                "Intersect12 Q->P": 51.0,
                 "Winding03 P": 3.0,
                 "Winding03 Q": 0.0
               }
@@ -1979,8 +1979,8 @@
             {
               "case_index": 551,
               "phases_ms": {
-                "Intersect12 P->Q": 62.0,
-                "Intersect12 Q->P": 48.0,
+                "Intersect12 P->Q": 81.0,
+                "Intersect12 Q->P": 46.0,
                 "Winding03 P": 4.0,
                 "Winding03 Q": 0.0
               }
@@ -1988,8 +1988,8 @@
             {
               "case_index": 582,
               "phases_ms": {
-                "Intersect12 P->Q": 26.0,
-                "Intersect12 Q->P": 20.0,
+                "Intersect12 P->Q": 29.0,
+                "Intersect12 Q->P": 22.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 0.0
               }
@@ -2003,8 +2003,8 @@
             {
               "case_index": 16,
               "phases_ms": {
-                "Intersect12 P->Q": 175.0,
-                "Intersect12 Q->P": 263.0,
+                "Intersect12 P->Q": 220.0,
+                "Intersect12 Q->P": 330.0,
                 "Winding03 P": 0.0,
                 "Winding03 Q": 1.0
               }
@@ -2012,8 +2012,8 @@
             {
               "case_index": 84,
               "phases_ms": {
-                "Intersect12 P->Q": 230.0,
-                "Intersect12 Q->P": 166.0,
+                "Intersect12 P->Q": 237.0,
+                "Intersect12 Q->P": 225.0,
                 "Winding03 P": 3.0,
                 "Winding03 Q": 1.0
               }
@@ -2021,17 +2021,17 @@
             {
               "case_index": 667,
               "phases_ms": {
-                "Intersect12 P->Q": 473.0,
-                "Intersect12 Q->P": 702.0,
+                "Intersect12 P->Q": 576.0,
+                "Intersect12 Q->P": 801.0,
                 "Winding03 P": 0.0,
-                "Winding03 Q": 4.0
+                "Winding03 Q": 3.0
               }
             },
             {
               "case_index": 695,
               "phases_ms": {
-                "Intersect12 P->Q": 352.0,
-                "Intersect12 Q->P": 150.0,
+                "Intersect12 P->Q": 410.0,
+                "Intersect12 Q->P": 156.0,
                 "Winding03 P": 5.0,
                 "Winding03 Q": 0.0
               }
@@ -2039,36 +2039,36 @@
             {
               "case_index": 260,
               "phases_ms": {
-                "Intersect12 P->Q": 77.0,
-                "Intersect12 Q->P": 94.0,
+                "Intersect12 P->Q": 91.0,
+                "Intersect12 Q->P": 102.0,
                 "Winding03 P": 2.0,
-                "Winding03 Q": 4.0
+                "Winding03 Q": 3.0
               }
             },
             {
               "case_index": 406,
               "phases_ms": {
-                "Intersect12 P->Q": 91.0,
-                "Intersect12 Q->P": 54.0,
-                "Winding03 P": 3.0,
+                "Intersect12 P->Q": 98.0,
+                "Intersect12 Q->P": 59.0,
+                "Winding03 P": 5.0,
                 "Winding03 Q": 0.0
               }
             },
             {
               "case_index": 551,
               "phases_ms": {
-                "Intersect12 P->Q": 63.0,
-                "Intersect12 Q->P": 44.0,
-                "Winding03 P": 4.0,
+                "Intersect12 P->Q": 59.0,
+                "Intersect12 Q->P": 53.0,
+                "Winding03 P": 5.0,
                 "Winding03 Q": 0.0
               }
             },
             {
               "case_index": 582,
               "phases_ms": {
-                "Intersect12 P->Q": 24.0,
-                "Intersect12 Q->P": 19.0,
-                "Winding03 P": 0.0,
+                "Intersect12 P->Q": 29.0,
+                "Intersect12 Q->P": 21.0,
+                "Winding03 P": 1.0,
                 "Winding03 Q": 0.0
               }
             }
