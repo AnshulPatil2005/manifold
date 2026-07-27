@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T13:05:02Z",
-  "latest_run_id": "30203222063",
+  "generated_at": "2026-07-27T02:10:52Z",
+  "latest_run_id": "30231330924",
   "runs": [
     {
       "commit_sha": "1713676a9c960eed34da82a95f204214c61194ac",
@@ -489,6 +489,21 @@
       "runner": "GitHub Actions 1000001038",
       "summary_path": "weekly/2026/07/26/30203222063/summary.md",
       "timestamp": "2026-07-26T13:04:57Z",
+      "workflow": "Weekly Benchmarks"
+    },
+    {
+      "commit_sha": "31115d3e82208d804988dfbee91241245604e28a",
+      "compiler": "AppleClang 17.0.0.17000013",
+      "cpu_count": 3,
+      "cpu_model": "Apple M1 (Virtual)",
+      "date": "2026-07-27",
+      "github_run_url": "https://github.com/AnshulPatil2005/manifold/actions/runs/30231330924",
+      "os": "macOS",
+      "result_path": "weekly/2026/07/27/30231330924/result.json",
+      "run_id": "30231330924",
+      "runner": "GitHub Actions 1000001051",
+      "summary_path": "weekly/2026/07/27/30231330924/summary.md",
+      "timestamp": "2026-07-27T02:10:48Z",
       "workflow": "Weekly Benchmarks"
     }
   ],
