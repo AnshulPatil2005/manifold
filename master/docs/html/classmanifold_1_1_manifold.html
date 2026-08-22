@@ -286,8 +286,8 @@ I/O</h2></td></tr>
 <div class="line">  }</div>
 <div class="line">  ifile.close();</div>
 <div class="line">}</div>
-<div class="ttc" id="aclassmanifold_1_1_manifold_html_a423e2f2a67ccc0662a97e018b2c3886d"><div class="ttname"><a href="#a423e2f2a67ccc0662a97e018b2c3886d">manifold::Manifold::Status</a></div><div class="ttdeci">Error Status() const</div><div class="ttdef"><b>Definition</b> manifold.cpp:302</div></div>
-<div class="ttc" id="aclassmanifold_1_1_manifold_html_ad5f60691d05e3402630122740cdf3a0b"><div class="ttname"><a href="#ad5f60691d05e3402630122740cdf3a0b">manifold::Manifold::Manifold</a></div><div class="ttdeci">Manifold()</div><div class="ttdef"><b>Definition</b> manifold.cpp:123</div></div>
+<div class="ttc" id="aclassmanifold_1_1_manifold_html_a423e2f2a67ccc0662a97e018b2c3886d"><div class="ttname"><a href="#a423e2f2a67ccc0662a97e018b2c3886d">manifold::Manifold::Status</a></div><div class="ttdeci">Error Status() const</div><div class="ttdef"><b>Definition</b> manifold.cpp:303</div></div>
+<div class="ttc" id="aclassmanifold_1_1_manifold_html_ad5f60691d05e3402630122740cdf3a0b"><div class="ttname"><a href="#ad5f60691d05e3402630122740cdf3a0b">manifold::Manifold::Manifold</a></div><div class="ttdeci">Manifold()</div><div class="ttdef"><b>Definition</b> manifold.cpp:124</div></div>
 </div><!-- fragment --><p>Writing: </p><div class="fragment"><div class="line">std::ofstream ofile;</div>
 <div class="line">ofile.open(filename);</div>
 <div class="line"><span class="keywordflow">if</span> (ofile.is_open()) {</div>
@@ -307,6 +307,7 @@ Testing Hooks</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p>These are just for internal testing. </p>
 </td></tr>
 <tr class="memitem:a611a5fd95dc5d49cd88182b8ead722b7" id="r_a611a5fd95dc5d49cd88182b8ead722b7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a611a5fd95dc5d49cd88182b8ead722b7">MatchesTriNormals</a> () const</td></tr>
+<tr class="memitem:a229504ceeba4cfe69d815e46496090f7" id="r_a229504ceeba4cfe69d815e46496090f7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a229504ceeba4cfe69d815e46496090f7">HasSimpleProps</a> () const</td></tr>
 <tr class="memitem:af46a22b8e84924f7159ae2a2db6cc956" id="r_af46a22b8e84924f7159ae2a2db6cc956"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#af46a22b8e84924f7159ae2a2db6cc956">NumDegenerateTris</a> () const</td></tr>
 <tr class="memitem:ad4952fe30496434f3e128a33f5e350ef" id="r_ad4952fe30496434f3e128a33f5e350ef"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#ad4952fe30496434f3e128a33f5e350ef">GetEpsilon</a> () const</td></tr>
 </table>
@@ -2129,6 +2130,24 @@ Testing Hooks</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The triangle normal vectors are saved over the course of operations rather than recalculated to avoid rounding error. This checks that triangles still match their normal vectors within Precision(). </p>
+
+</div>
+</div>
+<a id="a229504ceeba4cfe69d815e46496090f7" name="a229504ceeba4cfe69d815e46496090f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229504ceeba4cfe69d815e46496090f7">&#9670;&#160;</a></span>HasSimpleProps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HasSimpleProps </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if properties are shared everywhere except across mesh boundaries. This is not true in general, but only because an input mesh may have property discontinuities. For simple input meshes where properties are 1:1 with verts, this HasSimpleProps condition should still be true after any combination of boolean operations and simplifications. <a class="el" href="#aa3d47c1d38cbbebcee9f6e697c65a286">CalculateNormals()</a> will cause this to be false anytime the mesh contains a sharp edge. </p>
 
 </div>
 </div>

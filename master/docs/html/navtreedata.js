@@ -43,7 +43,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"index.html"
+"group__vec__algebra.html#gaf95c4ba484d6efe575e8fe8225f7203f"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';

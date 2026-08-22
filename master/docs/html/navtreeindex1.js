@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"group__vec__algebra.html#gaf95c4ba484d6efe575e8fe8225f7203f":[1,0,1,1,1,6],
+"group__vec__algebra.html#gafa2e270a2bd944eef65542243670f65f":[1,0,1,1,1,9],
+"hierarchy.html":[2,1],
 "index.html":[],
 "index.html":[0],
 "index.html#autotoc_md1":[0,0],
